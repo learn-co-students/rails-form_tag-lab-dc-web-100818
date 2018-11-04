@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset=s"utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <%= form_tag students_path do %>
+  <label>Student Form</label><br>
+  <%= text_field_tag :'first_name' %><br>
+    <label>Last Name:</label>
+    <%= text_field_tag :'last_name' %><br>
+  <%= submit_tag "Submit Student" %>
+<% end %>
+
+  </body>
+</html>
